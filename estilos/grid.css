@@ -1,0 +1,7 @@
+.contenedor{
+    display: grid;/*Se indica que trabajara con la grid*/
+    grid-template-columns: 1fr 2fr 1fr;/*Se le indica el número y tamaño de las columnas*/
+    grid-template-rows: 150px 300px;/*Se indica el alto de las filas*/
+    grid-gap: 20px;/*Agrega un espaciado entre filas y columnas*/
+    /*También se puede agregar fr en las filas, solo que para esto hay que especifcar una altura al contenedor*/
+}
