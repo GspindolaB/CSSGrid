@@ -1,0 +1,7 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px repeat(4, 1fr) 200px;/*Agrega una columna al principio y al final de 200 px
+     y en medio de ellas 4 de una fracción*/
+    grid-template-rows: repeat(3, 1fr);/*Agrega 3 filas con el tamaño de una fracción cada una*/
+}
