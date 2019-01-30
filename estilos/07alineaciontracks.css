@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    height: 700px;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+
+    /*Alinear horizontalmente*/
+    justify-content: space-between;
+
+    /*Alinear verticalmente*/
+    align-content: space-between;
+    
+    /*Valores permitidos
+        normal
+        center
+        space-between
+        space-around
+        space-evenly
+        start
+        end
+    */
+
+}

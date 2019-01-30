@@ -1,0 +1,19 @@
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+
+    /*Acomodar un elemento de forma horizonal*/
+    justify-items: center;
+    /*Acomodar un elemento de forma vertical*/
+    align-items: center;
+    /*
+    Formas de alineación
+    */
+}
+.contenedor .item{
+    background: #f88000;
+    justify-self: stretch;/*Acomodar un elemento de forma horizonal individualmente*/
+    align-self: stretch;/*Acomodar un elemento de forma vertical individualmente*/
+}
